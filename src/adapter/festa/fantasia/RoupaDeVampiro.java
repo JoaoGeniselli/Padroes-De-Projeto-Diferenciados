@@ -15,6 +15,6 @@ public class RoupaDeVampiro extends Fantasia {
 
     @Override
     public String descricaoDaRoupa() {
-        return "Roupa elegante com capa e uma dentadura com dentes afiados";
+        return "Aparencia elegante com capa e uma dentadura com dentes afiados";
     }
 }

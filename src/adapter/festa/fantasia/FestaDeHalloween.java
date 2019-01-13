@@ -35,7 +35,7 @@ public class FestaDeHalloween {
         participantes.forEach((p) -> {
             System.out.println("");
             System.out.println("Nome do Personagem: " + p.nomeDoPersonagem());
-            System.out.println("Descrição da Roupa: " + p.descricaoDaRoupa());
+            System.out.println("Descrição da Aparencia: " + p.descricaoDaRoupa());
             System.out.println("Bebida Favorita: " + p.bebidaFavorita());
         });
         System.out.println("");

@@ -15,6 +15,6 @@ public class RoupaDeCaveira extends Fantasia {
 
     @Override
     public String descricaoDaRoupa() {
-        return "Roupa preta inteira com desenho dos ossos";
+        return "Aparencia preta inteira com desenho dos ossos";
     }
 }
