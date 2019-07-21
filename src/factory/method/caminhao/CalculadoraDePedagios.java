@@ -7,17 +7,17 @@ public class CalculadoraDePedagios {
     private int quantidadeDeEixos;
     private final String enderecoInicial;
     private final String enderecoFinal;
+    private final double precoPorEixo;
 
-    public CalculadoraDePedagios(int quantidadeDeEixos, String enderecoInicial, String enderecoFinal) {
+    public CalculadoraDePedagios(int quantidadeDeEixos, String enderecoInicial, String enderecoFinal, double precoPorEixo) {
         this.quantidadeDeEixos = quantidadeDeEixos;
         this.enderecoInicial = enderecoInicial;
         this.enderecoFinal = enderecoFinal;
+        this.precoPorEixo = precoPorEixo;
     }
 
-    private static final double VALOR_FIXO_POR_EIXO = 20.00;
-
     public double calcularGastos() {
-        return quantidadeDeEixos * VALOR_FIXO_POR_EIXO * quantidadePedagiosDaRota();
+        return quantidadeDeEixos * precoPorEixo * quantidadePedagiosDaRota();
     }
 
     private int quantidadePedagiosDaRota() {

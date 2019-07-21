@@ -12,7 +12,8 @@ public class Transportadora {
         CalculadoraDePedagios pedagios = new CalculadoraDePedagios(
                 caminhao.quantidadeDeEixos(),
                 carga.enderecoDeColeta,
-                carga.enderecoDeEntrega
+                carga.enderecoDeEntrega,
+                20.0
         );
 
         valorOrcamento += pedagios.calcularGastos();
